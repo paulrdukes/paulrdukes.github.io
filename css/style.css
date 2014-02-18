@@ -87,8 +87,9 @@ a:hover{
 
 .multitaskopus{
   background: url('../imgs/multitaskopus.png') no-repeat;
-  width: 500px;
-  height: 382px;
+  background-size: 100%;
+  width: 380px;
+  height: 290px;
   position: absolute;
   bottom: 0;
   right: 0;
