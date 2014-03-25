@@ -2,3 +2,5 @@ node_modules
 scss
 coffee
 package.json
+.sass-cache
+_site

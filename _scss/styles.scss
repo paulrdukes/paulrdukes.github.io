@@ -1,0 +1,181 @@
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,800);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,900);
+
+// includes
+@import 'variables.scss';
+
+
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+
+html{
+  background: $base-background-color;
+  font: $font;
+  color: $base-text-color;
+}
+
+h1{
+  font-size: 3em;
+  line-height: 1.2;
+  font-weight: 900;
+  color: $base-header-text-color;
+  padding: 0;
+  line-height: 1;
+}
+
+.wrap{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.content{
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 75px;
+}
+
+.social-media{
+  left: 0;
+  right: 0;
+  position: fixed;
+  padding: 2px 18px;
+  margin: 0;
+  background: $white;
+  border-bottom: $border;
+
+  a{
+    text-decoration: none;
+  }
+
+  h1{
+    position: absolute;
+    left: 10px;
+    top: 0;
+    margin: 0;
+  }
+}
+
+ul{
+  list-style: none;
+  text-align: right;
+
+  li{
+    display: inline-block;
+  }
+}
+
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.large-icon{
+  font-size: 32px;
+  margin-left: 10px;
+}
+.about-wrap{
+  font-size:  14px;
+  float: left;
+  width: 320px;
+  background: $sidebar-background-color;
+  box-sizing:  border-box;
+  padding: 10px 10px;
+  position: fixed;
+  top: 55px;
+  bottom: 0;
+  left: 0;
+  transition: .55s ease-out;
+
+  &.closed{
+    height: 0;
+    padding-bottom: 5px;
+    overflow: hidden;
+    transition: .55s ease-out;
+  }
+
+  .about{
+    ul{
+      text-align: left;
+      margin-left: 0;
+      padding-left: 0;
+    }
+    h2{
+      font-size: 2em;
+      color: #b7b7b7;
+      clear: both;
+      line-height:  1;
+      margin-bottom: 0;
+    }
+    .profile-pic{
+      width: 150px;
+      height: 150px;
+      float: left;
+      margin: 0 10px 20px 0;
+    }
+  }
+}
+.multitaskopus{
+  background: url('../imgs/multitaskopus.png') no-repeat;
+  background-size: 100%;
+  width: 250px;
+  height: 191px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.footer-wrap {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-align: left;
+  padding: 10px;
+  font-size: 12px;
+
+  .footer {
+    margin: 0 auto;
+    width: 300px;
+  }
+}
+
+// links
+a{
+  color: $link-color;
+  transition: color 0.5s ease-out;
+
+  &:hover{
+    color: $link-hover-color;
+    transition: color 0.35s ease-out;
+  }
+}
+
+// posts
+#posts{
+  padding-bottom:  50px;
+}
+
+.post-title{
+  border-bottom: $border;
+
+  a{
+    font-size: 32px;
+    font-weight: 900;
+    text-decoration: none;
+  }
+  em {
+    float: right;
+    line-height: 60px;
+  }
+}

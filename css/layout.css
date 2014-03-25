@@ -1,0 +1,14 @@
+/* line 1, ../_scss/layout.scss */
+.wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+/* line 9, ../_scss/layout.scss */
+.content {
+  width: 600px;
+  margin: 0 auto;
+}

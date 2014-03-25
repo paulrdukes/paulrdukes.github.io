@@ -1,0 +1,192 @@
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,800);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,900);
+/* entypo */
+/* line 10, ../_scss/styles.scss */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+
+/* line 14, ../_scss/styles.scss */
+html {
+  background: #ededed;
+  font: 16px/1.5 "Open Sans", sans-serif;
+  color: #333333;
+}
+
+/* line 20, ../_scss/styles.scss */
+h1 {
+  font-size: 3em;
+  line-height: 1.2;
+  font-weight: 900;
+  color: #222222;
+  padding: 0;
+  line-height: 1;
+}
+
+/* line 29, ../_scss/styles.scss */
+.wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+/* line 37, ../_scss/styles.scss */
+.content {
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 75px;
+}
+
+/* line 43, ../_scss/styles.scss */
+.social-media {
+  left: 0;
+  right: 0;
+  position: fixed;
+  padding: 2px 18px;
+  margin: 0;
+  background: #eeeeee;
+  border-bottom: 2px solid #bbbbbb;
+}
+/* line 52, ../_scss/styles.scss */
+.social-media a {
+  text-decoration: none;
+}
+/* line 56, ../_scss/styles.scss */
+.social-media h1 {
+  position: absolute;
+  left: 10px;
+  top: 0;
+  margin: 0;
+}
+
+/* line 64, ../_scss/styles.scss */
+ul {
+  list-style: none;
+  text-align: right;
+}
+/* line 68, ../_scss/styles.scss */
+ul li {
+  display: inline-block;
+}
+
+/* line 73, ../_scss/styles.scss */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/* line 84, ../_scss/styles.scss */
+.large-icon {
+  font-size: 32px;
+  margin-left: 10px;
+}
+
+/* line 88, ../_scss/styles.scss */
+.about-wrap {
+  font-size: 14px;
+  float: left;
+  width: 320px;
+  background: #dedede;
+  box-sizing: border-box;
+  padding: 10px 10px;
+  position: fixed;
+  top: 55px;
+  bottom: 0;
+  left: 0;
+  transition: .55s ease-out;
+}
+/* line 101, ../_scss/styles.scss */
+.about-wrap.closed {
+  height: 0;
+  padding-bottom: 5px;
+  overflow: hidden;
+  transition: .55s ease-out;
+}
+/* line 109, ../_scss/styles.scss */
+.about-wrap .about ul {
+  text-align: left;
+  margin-left: 0;
+  padding-left: 0;
+}
+/* line 114, ../_scss/styles.scss */
+.about-wrap .about h2 {
+  font-size: 2em;
+  color: #b7b7b7;
+  clear: both;
+  line-height: 1;
+  margin-bottom: 0;
+}
+/* line 121, ../_scss/styles.scss */
+.about-wrap .about .profile-pic {
+  width: 150px;
+  height: 150px;
+  float: left;
+  margin: 0 10px 20px 0;
+}
+
+/* line 129, ../_scss/styles.scss */
+.multitaskopus {
+  background: url("../imgs/multitaskopus.png") no-repeat;
+  background-size: 100%;
+  width: 250px;
+  height: 191px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+/* line 139, ../_scss/styles.scss */
+.footer-wrap {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-align: left;
+  padding: 10px;
+  font-size: 12px;
+}
+/* line 147, ../_scss/styles.scss */
+.footer-wrap .footer {
+  margin: 0 auto;
+  width: 300px;
+}
+
+/* line 154, ../_scss/styles.scss */
+a {
+  color: #888888;
+  transition: color 0.5s ease-out;
+}
+/* line 158, ../_scss/styles.scss */
+a:hover {
+  color: #f82cf8;
+  transition: color 0.35s ease-out;
+}
+
+/* line 165, ../_scss/styles.scss */
+#posts {
+  padding-bottom: 50px;
+}
+
+/* line 169, ../_scss/styles.scss */
+.post-title {
+  border-bottom: 2px solid #bbbbbb;
+}
+/* line 172, ../_scss/styles.scss */
+.post-title a {
+  font-size: 32px;
+  font-weight: 900;
+  text-decoration: none;
+}
+/* line 177, ../_scss/styles.scss */
+.post-title em {
+  float: right;
+  line-height: 60px;
+}
