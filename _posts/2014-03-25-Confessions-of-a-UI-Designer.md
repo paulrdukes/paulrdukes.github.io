@@ -13,5 +13,5 @@ As a UI designer many of my modules are CSS based. It’s one of the best ways t
 
 Modular CSS, and programming in general, will add a learning curve for new team members. In this situation good documentation while building your modules is invaluable. In the end, modular coding reduces development time, aids in rapid prototyping and allows for more thoughtful design. If you decide to use existing libraries, I recommend namespacing and extending just the rules you need (you’re using a preprocessor, right?). This can reduce bloat, save bandwidth and improve load times.
 
-*TL;DR* - As a UI designer, your job is to look at problems and determine the best solutions, not the prettiest.
+***TL;DR*** - As a UI designer, your job is to look at problems and determine the best solutions, not the prettiest.
 
