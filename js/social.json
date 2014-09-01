@@ -1,0 +1,22 @@
+[
+  {
+    "url":"http://www.twitter.com/paulrdukes",
+    "icon": "twitter"
+  },
+  {
+    "url":"http://www.rdio.com/people/paulrdukes",
+    "icon": "rdio"
+  },
+  {
+    "url":"http://ca.linkedin.com/in/pauldukes",
+    "icon": "linkedin"
+  },
+  {
+    "url":"http://www.behance.net/pauldukes",
+    "icon": "behance"
+  },
+  {
+    "url":"http://www.github.com/paulrdukes",
+    "icon": "github"
+  }
+]

@@ -40,7 +40,7 @@ h1{
   margin-top: 75px;
 }
 
-.social-media{
+.header{
   left: 0;
   right: 0;
   position: fixed;
@@ -48,12 +48,18 @@ h1{
   margin: 0;
   background: $white;
   border-bottom: $border;
+  .social-media {
+    float: right;
+    margin: 0;
+    display: inline-block;
+  }
 
   a{
     text-decoration: none;
   }
 
   h1{
+    display: inline-block;
     position: absolute;
     left: 10px;
     top: 0;
