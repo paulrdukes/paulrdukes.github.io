@@ -1,22 +1,33 @@
 [
   {
     "url":"http://www.twitter.com/paulrdukes",
-    "icon": "twitter"
+    "class": "twitter",
+    "name": "Twitter"
   },
   {
     "url":"http://www.rdio.com/people/paulrdukes",
-    "icon": "rdio"
+    "class": "rdio",
+    "name": "Rdio"
   },
   {
     "url":"http://ca.linkedin.com/in/pauldukes",
-    "icon": "linkedin"
+    "class": "linkedin-circled",
+    "name": "LinkedIn"
   },
   {
     "url":"http://www.behance.net/pauldukes",
-    "icon": "behance"
+    "class": "behance",
+    "name": "Behance"
   },
   {
     "url":"http://www.github.com/paulrdukes",
-    "icon": "github"
+    "class": "github",
+    "name": "Github"
+  },
+  {
+    "url": "mailto:paul.r.dukes@gmail.com",
+    "class": "mail",
+    "name": "E-mail",
+    "hide": true
   }
 ]
