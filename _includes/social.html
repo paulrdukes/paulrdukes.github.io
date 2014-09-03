@@ -1,10 +1,4 @@
 <div class="header">
   <h1><a href="/index.html">Hi, I'm Paul.</a></h1>
-  <ul class="social-media" ng-controller="SocialLinks">
-    <li ng-repeat="socialLink in socialLinks" ng-hide="socialLink.hide">
-      <a href="[[socialLink.url]]" class="large-icon entypo-[[socialLink.class]]" data-icon="[[socialLink.name | lowercase]]" target="_blank">
-        <span class="visuallyhidden">[[socialLink.name]]<span>
-      </a>
-    </li>
-  </ul>
+  <social-links></social-links>
 </div>
