@@ -12,18 +12,19 @@
 }
 
 html{
-  background: $base-background-color;
+  background: $content-background-color;
   font: $font;
-  color: $base-text-color;
+  color: $primary-text-color;
 }
 
 h1{
   font-size: 3em;
   line-height: 1.2;
   font-weight: 900;
-  color: $base-header-text-color;
+  color: $primary-header-text-color;
   padding: 0;
   line-height: 1;
+  margin: 0;
 }
 
 .wrap{
@@ -37,34 +38,17 @@ h1{
 .content{
   width: 600px;
   margin: 0 auto;
-  margin-top: 75px;
 }
 
-.header{
-  left: 0;
-  right: 0;
-  position: fixed;
-  padding: 2px 18px;
+.social-media {
   margin: 0;
-  background: $white;
-  border-bottom: $border;
-  .social-media {
-    float: right;
-    margin: 0;
-    display: inline-block;
+  padding: 0;
+  display: inline-block;
+
+  li{
+    padding-right: 10px;
   }
 
-  a{
-    text-decoration: none;
-  }
-
-  h1{
-    display: inline-block;
-    position: absolute;
-    left: 10px;
-    top: 0;
-    margin: 0;
-  }
 }
 
 ul{
@@ -95,21 +79,14 @@ ul{
   font-size:  14px;
   float: left;
   width: 320px;
-  background: $sidebar-background-color;
   box-sizing:  border-box;
   padding: 10px 10px;
   position: fixed;
-  top: 55px;
+  top: 0;
   bottom: 0;
   left: 0;
-  transition: .55s ease-out;
-
-  &.closed{
-    height: 0;
-    padding-bottom: 5px;
-    overflow: hidden;
-    transition: .55s ease-out;
-  }
+  border-left: $border;
+  border-width: 15px;
 
   .about{
     ul{
@@ -119,7 +96,7 @@ ul{
     }
     h2{
       font-size: 2em;
-      color: #b7b7b7;
+      color: lighten($primary-header-text-color, 10%);
       clear: both;
       line-height:  1;
       margin-bottom: 0;
@@ -127,17 +104,16 @@ ul{
     .profile-pic{
       width: 150px;
       height: 150px;
-      border: 4px $link-color solid;
-      border-radius: 50%;
-      margin: 0 10px 20px 0;
+      border: $border;
+      border-width: 12px;
+      border-radius: 0 50% 50%;
     }
 
     p{
-      width: 135px;
-      margin-top: -135px;
-      float: right;
       font-style:  italic;
       font-weight:  300;
+      letter-spacing:  -0.016em;
+      margin: 6px 0;
     }
   }
 }
@@ -169,6 +145,7 @@ ul{
 a{
   color: $link-color;
   transition: color 0.5s ease-out;
+  text-decoration: none;
 
   &:hover{
     color: $link-hover-color;

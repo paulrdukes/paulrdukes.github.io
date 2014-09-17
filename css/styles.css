@@ -9,9 +9,9 @@
 
 /* line 14, ../_scss/styles.scss */
 html {
-  background: #ededed;
+  background: #f3f8f7;
   font: 16px/1.5 "Open Sans", sans-serif;
-  color: #333333;
+  color: #444444;
 }
 
 /* line 20, ../_scss/styles.scss */
@@ -19,12 +19,13 @@ h1 {
   font-size: 3em;
   line-height: 1.2;
   font-weight: 900;
-  color: #222222;
+  color: #777777;
   padding: 0;
   line-height: 1;
+  margin: 0;
 }
 
-/* line 29, ../_scss/styles.scss */
+/* line 30, ../_scss/styles.scss */
 .wrap {
   position: absolute;
   top: 0;
@@ -33,53 +34,34 @@ h1 {
   right: 0;
 }
 
-/* line 37, ../_scss/styles.scss */
+/* line 38, ../_scss/styles.scss */
 .content {
   width: 600px;
   margin: 0 auto;
-  margin-top: 75px;
 }
 
 /* line 43, ../_scss/styles.scss */
-.header {
-  left: 0;
-  right: 0;
-  position: fixed;
-  padding: 2px 18px;
+.social-media {
   margin: 0;
-  background: #eeeeee;
-  border-bottom: 2px solid #bbbbbb;
-}
-/* line 51, ../_scss/styles.scss */
-.header .social-media {
-  float: right;
-  margin: 0;
+  padding: 0;
   display: inline-block;
 }
-/* line 57, ../_scss/styles.scss */
-.header a {
-  text-decoration: none;
-}
-/* line 61, ../_scss/styles.scss */
-.header h1 {
-  display: inline-block;
-  position: absolute;
-  left: 10px;
-  top: 0;
-  margin: 0;
+/* line 48, ../_scss/styles.scss */
+.social-media li {
+  padding-right: 10px;
 }
 
-/* line 70, ../_scss/styles.scss */
+/* line 54, ../_scss/styles.scss */
 ul {
   list-style: none;
   text-align: right;
 }
-/* line 74, ../_scss/styles.scss */
+/* line 58, ../_scss/styles.scss */
 ul li {
   display: inline-block;
 }
 
-/* line 79, ../_scss/styles.scss */
+/* line 63, ../_scss/styles.scss */
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -91,65 +73,57 @@ ul li {
   width: 1px;
 }
 
-/* line 90, ../_scss/styles.scss */
+/* line 74, ../_scss/styles.scss */
 .large-icon {
   font-size: 32px;
   margin-left: 10px;
 }
 
-/* line 94, ../_scss/styles.scss */
+/* line 78, ../_scss/styles.scss */
 .about-wrap {
   font-size: 14px;
   float: left;
   width: 320px;
-  background: #dedede;
   box-sizing: border-box;
   padding: 10px 10px;
   position: fixed;
-  top: 55px;
+  top: 0;
   bottom: 0;
   left: 0;
-  transition: .55s ease-out;
+  border-left: 2px solid #4e7da8;
+  border-width: 15px;
 }
-/* line 107, ../_scss/styles.scss */
-.about-wrap.closed {
-  height: 0;
-  padding-bottom: 5px;
-  overflow: hidden;
-  transition: .55s ease-out;
-}
-/* line 115, ../_scss/styles.scss */
+/* line 92, ../_scss/styles.scss */
 .about-wrap .about ul {
   text-align: left;
   margin-left: 0;
   padding-left: 0;
 }
-/* line 120, ../_scss/styles.scss */
+/* line 97, ../_scss/styles.scss */
 .about-wrap .about h2 {
   font-size: 2em;
-  color: #b7b7b7;
+  color: #919191;
   clear: both;
   line-height: 1;
   margin-bottom: 0;
 }
-/* line 127, ../_scss/styles.scss */
+/* line 104, ../_scss/styles.scss */
 .about-wrap .about .profile-pic {
   width: 150px;
   height: 150px;
-  border: 4px #888888 solid;
-  border-radius: 50%;
-  margin: 0 10px 20px 0;
+  border: 2px solid #4e7da8;
+  border-width: 12px;
+  border-radius: 0 50% 50%;
 }
-/* line 135, ../_scss/styles.scss */
+/* line 112, ../_scss/styles.scss */
 .about-wrap .about p {
-  width: 135px;
-  margin-top: -135px;
-  float: right;
   font-style: italic;
   font-weight: 300;
+  letter-spacing: -0.016em;
+  margin: 6px 0;
 }
 
-/* line 144, ../_scss/styles.scss */
+/* line 120, ../_scss/styles.scss */
 .multitaskopus {
   background: url("../imgs/multitaskopus.png") no-repeat;
   background-size: 100%;
@@ -160,7 +134,7 @@ ul li {
   right: 0;
 }
 
-/* line 154, ../_scss/styles.scss */
+/* line 130, ../_scss/styles.scss */
 .footer-wrap {
   position: absolute;
   bottom: 0;
@@ -169,39 +143,40 @@ ul li {
   padding: 10px;
   font-size: 12px;
 }
-/* line 162, ../_scss/styles.scss */
+/* line 138, ../_scss/styles.scss */
 .footer-wrap .footer {
   margin: 0 auto;
   width: 300px;
 }
 
-/* line 169, ../_scss/styles.scss */
+/* line 145, ../_scss/styles.scss */
 a {
-  color: #888888;
+  color: #4e7da8;
   transition: color 0.5s ease-out;
+  text-decoration: none;
 }
-/* line 173, ../_scss/styles.scss */
+/* line 150, ../_scss/styles.scss */
 a:hover {
-  color: #f82cf8;
+  color: #b3d2cc;
   transition: color 0.35s ease-out;
 }
 
-/* line 180, ../_scss/styles.scss */
+/* line 157, ../_scss/styles.scss */
 #posts {
   padding-bottom: 50px;
 }
 
-/* line 184, ../_scss/styles.scss */
+/* line 161, ../_scss/styles.scss */
 .post-title {
-  border-bottom: 2px solid #bbbbbb;
+  border-bottom: 2px solid #4e7da8;
 }
-/* line 187, ../_scss/styles.scss */
+/* line 164, ../_scss/styles.scss */
 .post-title a {
   font-size: 32px;
   font-weight: 900;
   text-decoration: none;
 }
-/* line 192, ../_scss/styles.scss */
+/* line 169, ../_scss/styles.scss */
 .post-title em {
   float: right;
   line-height: 60px;

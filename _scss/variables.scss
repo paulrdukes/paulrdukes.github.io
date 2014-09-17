@@ -6,14 +6,15 @@ $font: 16px/1.5 $font-stack;
 // layout
 
 
-// colors
-$base-text-color: #333;
-$base-header-text-color: #222;
-$base-background-color: #ededed;
-$sidebar-background-color: #dedede;
-$white: #eee;
-$link-color: #888;
-$link-hover-color: #f82cf8;
-$border-color: #bbb;
+// paints
+$base-color: #d3e5e1;
+$content-background-color: #f3f8f7;
 
- $border: 2px solid $border-color;
+// text-color
+$primary-text-color: #444;
+$primary-header-text-color: #777;
+$link-color: #4e7da8;
+$link-hover-color: darken($content-background-color, 20%);
+
+// TODO Change to mixin
+$border: 2px solid $link-color;

@@ -1,0 +1,12 @@
+{
+  "title": "Hi, I'm Paul" ,
+  "pic": "/imgs/profile-pic.jpg",
+  "bio":"...a web person doing web things in Montreal, QC.",
+  "jobs": [
+    {
+      "title": "UX/UI Designer (Web Application)",
+      "company": "Acquisio",
+      "url": "http://www.acquisio.com"
+    }
+  ]
+}
