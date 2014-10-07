@@ -11,7 +11,8 @@
 
   app.directive('socialLinks', function () {
     return {
-      restrict: 'EAC',
+      restrict: 'EA',
+      //TODO: add controllerAs
       controller: function ($http, $scope) {
         $http.get('data/social.json').success(function (data) {
           $scope.socialLinks = data;
@@ -25,7 +26,8 @@
 
   app.directive('about', function () {
     return {
-      restrict: 'EAC',
+      restrict: 'EA',
+      //TODO: add controllerAs
       controller: function ($http, $scope) {
         $http.get('data/about.json').success(function (data) {
           $scope.about = data;
