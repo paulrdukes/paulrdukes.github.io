@@ -1,6 +1,7 @@
 // text
 $font-stack: 'Open Sans',sans-serif;
-$font: 16px/1.5 $font-stack;
+$base-font-size: 16px;
+$font: $base-font-size/1.5 $font-stack;
 
 
 // layout
