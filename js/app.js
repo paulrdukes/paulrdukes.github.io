@@ -33,7 +33,6 @@
           $scope.about = data;
         });
       },
-      // TODO: Clean this up.
       template:'<h1><a href="/index.html">{{about.title}}</a></h1>'+
       '<p>{{about.bio}}</p>' +
       '<social-links></social-links>'+
