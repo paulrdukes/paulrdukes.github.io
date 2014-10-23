@@ -25,7 +25,7 @@
 
   app.directive('about', function () {
     return {
-      restrict: 'E',
+      restrict: 'EC',
       controller: function ($http, $scope) {
         $http.get('data/about.json').success(function (data) {
           $scope.about = data;
