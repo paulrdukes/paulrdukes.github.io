@@ -81,6 +81,7 @@ ul{
   top: 0;
   bottom: 0;
   left: 0;
+  background-color: lighten($content-background-color, 5%);
   border-left: $border;
   border-width: 15px;
 
@@ -98,6 +99,7 @@ ul{
       margin-bottom: 0;
     }
     .profile-pic{
+      display: none;
       width: 150px;
       height: 150px;
       border: $border;

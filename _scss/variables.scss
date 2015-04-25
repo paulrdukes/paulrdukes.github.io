@@ -4,7 +4,9 @@
 
 // text
 $font-stack: 'Open Sans',sans-serif;
-$font: 16px/1.5 $font-stack;
+$base-font-size: 16px;
+$base-line-height: 15px;
+$font: #{$base-font-size}/#{$base-line-height} $font-stack;
 
 // TODO header mixin
 
@@ -13,11 +15,11 @@ $base-height: 30px;
 
 // paints
 $base-color: #d3e5e1;
-$content-background-color: #f3f8f7;
+$content-background-color: #efefef;
 
 // text-color
-$primary-text-color: #444;
-$primary-header-text-color: #777;
+$primary-text-color: #333;
+$primary-header-text-color: #222;
 $link-color: #4e7da8;
 $link-hover-color: darken($content-background-color, 20%);
 
