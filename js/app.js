@@ -9,7 +9,8 @@
   //   $interpolateProvider.endSymbol(']]');
   // });
 
-  app.directive('socialLinks', function () {
+  app
+  .directive('socialLinks', function () {
     return {
       restrict: 'E',
       controller: function ($http, $scope) {
@@ -21,9 +22,9 @@
         '<a href="{{socialLink.url}}" class="large-icon entypo-{{socialLink.class}}" data-icon="{{socialLink.name | lowercase}}" target="_blank">' +
         '<span class="visuallyhidden">{{socialLink.name}}<span></a></li></ul>'
     };
-  });
+  })
 
-  app.directive('about', function () {
+  .directive('about', function () {
     return {
       restrict: 'EC',
       controller: function ($http, $scope) {
