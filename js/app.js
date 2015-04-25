@@ -48,7 +48,6 @@
       restrict: 'C',
       controller: function ($scope) {
           $scope.currentYear = new Date().getFullYear();
-        });
       },
       template: 'This life is a work in progress. <br />' +
       'Copyright &copy; {{currentYear}} | powered by <a href="http://pages.github.com" target="_blank">Github</a>'
