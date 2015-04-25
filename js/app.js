@@ -42,5 +42,13 @@
         '<li><em>{{job.title}}</em> - <a href="{{job.url}}" target="_blank">{{job.company}}</a></li>' +
       '</ul>'
     };
+  })
+  
+  directive('footer', functoin (){
+    return {
+      restrict: 'C',
+      template: 'This life is a work in progress. <br />' +
+      'Copyright &copy; {{currentYear}} | powered by <a href="http://pages.github.com" target="_blank">Github</a>'
+    };
   });
 }());
