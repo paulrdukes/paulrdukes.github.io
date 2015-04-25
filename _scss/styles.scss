@@ -103,12 +103,17 @@ a{
 // posts
 #posts{
   padding-bottom:  50px;
+
+  p:first-of-type {
+    background-color: #ddd;
+    padding: $base-spacing;
+  }
 }
 
-.post-title{
+.post-title {
   border-bottom: $border;
 
-  a{
+  a {
     font-size: 32px;
     font-weight: 900;
     text-decoration: none;

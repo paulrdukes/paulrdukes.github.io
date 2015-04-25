@@ -173,18 +173,23 @@ a:hover {
 #posts {
   padding-bottom: 50px;
 }
+/* line 107, ../_scss/styles.scss */
+#posts p:first-of-type {
+  background-color: #ddd;
+  padding: 15px;
+}
 
-/* line 108, ../_scss/styles.scss */
+/* line 113, ../_scss/styles.scss */
 .post-title {
   border-bottom: 2px solid #989898;
 }
-/* line 111, ../_scss/styles.scss */
+/* line 116, ../_scss/styles.scss */
 .post-title a {
   font-size: 32px;
   font-weight: 900;
   text-decoration: none;
 }
-/* line 116, ../_scss/styles.scss */
+/* line 121, ../_scss/styles.scss */
 .post-title em {
   float: right;
   line-height: 60px;
