@@ -2,19 +2,19 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,800);
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,900);
 /* entypo */
-/* line 10, ../_scss/styles.scss */
+/* line 6, ../_scss/styles.scss */
 [class*="entypo-"]:before {
   font-family: 'entypo', sans-serif;
 }
 
-/* line 14, ../_scss/styles.scss */
+/* line 10, ../_scss/styles.scss */
 html {
   background: #f3f8f7;
   font: 16px/1.5 "Open Sans", sans-serif;
   color: #444444;
 }
 
-/* line 20, ../_scss/styles.scss */
+/* line 16, ../_scss/styles.scss */
 h1 {
   font-size: 3em;
   line-height: 1.2;
@@ -25,7 +25,7 @@ h1 {
   margin: 0;
 }
 
-/* line 30, ../_scss/styles.scss */
+/* line 26, ../_scss/styles.scss */
 .wrap {
   position: absolute;
   top: 0;
@@ -34,34 +34,34 @@ h1 {
   right: 0;
 }
 
-/* line 38, ../_scss/styles.scss */
+/* line 34, ../_scss/styles.scss */
 .content {
   width: 600px;
   margin: 0 auto;
 }
 
-/* line 43, ../_scss/styles.scss */
+/* line 39, ../_scss/styles.scss */
 .social-media {
   margin: 0;
   padding: 0;
   display: inline-block;
 }
-/* line 48, ../_scss/styles.scss */
+/* line 44, ../_scss/styles.scss */
 .social-media li {
   padding-right: 10px;
 }
 
-/* line 54, ../_scss/styles.scss */
+/* line 50, ../_scss/styles.scss */
 ul {
   list-style: none;
   text-align: right;
 }
-/* line 58, ../_scss/styles.scss */
+/* line 54, ../_scss/styles.scss */
 ul li {
   display: inline-block;
 }
 
-/* line 63, ../_scss/styles.scss */
+/* line 59, ../_scss/styles.scss */
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -73,13 +73,13 @@ ul li {
   width: 1px;
 }
 
-/* line 74, ../_scss/styles.scss */
+/* line 70, ../_scss/styles.scss */
 .large-icon {
   font-size: 32px;
   margin-left: 10px;
 }
 
-/* line 78, ../_scss/styles.scss */
+/* line 74, ../_scss/styles.scss */
 .about-wrap {
   font-size: 14px;
   float: left;
@@ -93,13 +93,13 @@ ul li {
   border-left: 2px solid #4e7da8;
   border-width: 15px;
 }
-/* line 92, ../_scss/styles.scss */
+/* line 88, ../_scss/styles.scss */
 .about-wrap .about ul {
   text-align: left;
   margin-left: 0;
   padding-left: 0;
 }
-/* line 97, ../_scss/styles.scss */
+/* line 93, ../_scss/styles.scss */
 .about-wrap .about h2 {
   font-size: 2em;
   color: #919191;
@@ -107,7 +107,7 @@ ul li {
   line-height: 1;
   margin-bottom: 0;
 }
-/* line 104, ../_scss/styles.scss */
+/* line 100, ../_scss/styles.scss */
 .about-wrap .about .profile-pic {
   width: 150px;
   height: 150px;
@@ -115,7 +115,7 @@ ul li {
   border-width: 12px;
   border-radius: 0 50% 50%;
 }
-/* line 112, ../_scss/styles.scss */
+/* line 108, ../_scss/styles.scss */
 .about-wrap .about p {
   font-style: italic;
   font-weight: 300;
@@ -123,7 +123,7 @@ ul li {
   margin: 6px 0;
 }
 
-/* line 120, ../_scss/styles.scss */
+/* line 116, ../_scss/styles.scss */
 .multitaskopus {
   background: url("../imgs/multitaskopus.png") no-repeat;
   background-size: 100%;
@@ -134,7 +134,7 @@ ul li {
   right: 0;
 }
 
-/* line 130, ../_scss/styles.scss */
+/* line 126, ../_scss/styles.scss */
 .footer-wrap {
   position: absolute;
   bottom: 0;
@@ -143,40 +143,40 @@ ul li {
   padding: 10px;
   font-size: 12px;
 }
-/* line 138, ../_scss/styles.scss */
+/* line 134, ../_scss/styles.scss */
 .footer-wrap .footer {
   margin: 0 auto;
   width: 300px;
 }
 
-/* line 145, ../_scss/styles.scss */
+/* line 141, ../_scss/styles.scss */
 a {
   color: #4e7da8;
   transition: color 0.5s ease-out;
   text-decoration: none;
 }
-/* line 150, ../_scss/styles.scss */
+/* line 146, ../_scss/styles.scss */
 a:hover {
   color: #b3d2cc;
   transition: color 0.35s ease-out;
 }
 
-/* line 157, ../_scss/styles.scss */
+/* line 153, ../_scss/styles.scss */
 #posts {
   padding-bottom: 50px;
 }
 
-/* line 161, ../_scss/styles.scss */
+/* line 157, ../_scss/styles.scss */
 .post-title {
   border-bottom: 2px solid #4e7da8;
 }
-/* line 164, ../_scss/styles.scss */
+/* line 160, ../_scss/styles.scss */
 .post-title a {
   font-size: 32px;
   font-weight: 900;
   text-decoration: none;
 }
-/* line 169, ../_scss/styles.scss */
+/* line 165, ../_scss/styles.scss */
 .post-title em {
   float: right;
   line-height: 60px;
