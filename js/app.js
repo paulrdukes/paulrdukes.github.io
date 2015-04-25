@@ -2,7 +2,6 @@
   'use strict';
 
   var app = angular.module('Blog', []);
-  var currentYear = new Date().getFullYear();
 
   // Prevents conflicts with liquid templating language
   // app.config( function($interpolateProvider) {
@@ -45,6 +44,7 @@
   })
   
   .directive('footer', function (){
+    var currentYear = new Date().getFullYear();
     return {
       restrict: 'C',
       template: 'This life is a work in progress. <br />' +
