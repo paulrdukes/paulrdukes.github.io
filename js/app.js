@@ -44,7 +44,7 @@
     };
   })
   
-  .directive('footer', functoin (){
+  .directive('footer', function (){
     return {
       restrict: 'C',
       template: 'This life is a work in progress. <br />' +
