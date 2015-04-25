@@ -2,6 +2,7 @@
   'use strict';
 
   var app = angular.module('Blog', []);
+  var currentYear = new Date().getFullYear();
 
   // Prevents conflicts with liquid templating language
   // app.config( function($interpolateProvider) {
