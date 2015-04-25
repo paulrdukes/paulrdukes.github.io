@@ -107,23 +107,24 @@ ul li {
 
 /* line 42, ../_scss/styles.scss */
 .large-icon {
+  display: inline-block;
   font-size: 32px;
   text-align: center;
   width: 50px;
   height: 50px;
 }
 
-/* line 49, ../_scss/styles.scss */
+/* line 50, ../_scss/styles.scss */
 about {
   flex: 1;
 }
-/* line 52, ../_scss/styles.scss */
+/* line 53, ../_scss/styles.scss */
 about ul {
   text-align: left;
   margin-left: 0;
   padding-left: 0;
 }
-/* line 57, ../_scss/styles.scss */
+/* line 58, ../_scss/styles.scss */
 about h2 {
   font-size: 2em;
   color: #3c3c3c;
@@ -131,7 +132,7 @@ about h2 {
   line-height: 1;
   margin-bottom: 0;
 }
-/* line 64, ../_scss/styles.scss */
+/* line 65, ../_scss/styles.scss */
 about .profile-pic {
   display: none;
   width: 150px;
@@ -140,7 +141,7 @@ about .profile-pic {
   border-width: 12px;
   border-radius: 0 50% 50%;
 }
-/* line 73, ../_scss/styles.scss */
+/* line 74, ../_scss/styles.scss */
 about p {
   font-style: italic;
   font-weight: 300;
@@ -148,7 +149,7 @@ about p {
   margin: 6px 0;
 }
 
-/* line 81, ../_scss/styles.scss */
+/* line 82, ../_scss/styles.scss */
 .multitaskopus {
   background: url("../imgs/multitaskopus.png") no-repeat;
   background-size: 100%;
@@ -159,39 +160,39 @@ about p {
   right: 0;
 }
 
-/* line 92, ../_scss/styles.scss */
+/* line 93, ../_scss/styles.scss */
 a {
   color: #989898;
   transition: color 0.5s ease-out;
   text-decoration: none;
 }
-/* line 97, ../_scss/styles.scss */
+/* line 98, ../_scss/styles.scss */
 a:hover {
   color: #bcbcbc;
   transition: 0.22s ease;
 }
 
-/* line 104, ../_scss/styles.scss */
+/* line 105, ../_scss/styles.scss */
 #posts {
   padding-bottom: 50px;
 }
-/* line 107, ../_scss/styles.scss */
+/* line 108, ../_scss/styles.scss */
 #posts p:first-of-type {
   background-color: #ddd;
   padding: 15px;
 }
 
-/* line 113, ../_scss/styles.scss */
+/* line 114, ../_scss/styles.scss */
 .post-title {
   border-bottom: 2px solid #989898;
 }
-/* line 116, ../_scss/styles.scss */
+/* line 117, ../_scss/styles.scss */
 .post-title a {
   font-size: 32px;
   font-weight: 900;
   text-decoration: none;
 }
-/* line 121, ../_scss/styles.scss */
+/* line 122, ../_scss/styles.scss */
 .post-title em {
   float: right;
   line-height: 60px;
