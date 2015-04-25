@@ -1,7 +1,8 @@
 // text
 $font-stack: 'Open Sans',sans-serif;
 $base-font-size: 16px;
-$font: $base-font-size/1.5 $font-stack;
+$base-line-height: 15px;
+$font: #{$base-font-size}/#{$base-line-height} $font-stack;
 
 
 // layout
@@ -9,7 +10,7 @@ $font: $base-font-size/1.5 $font-stack;
 
 // paints
 $base-color: #d3e5e1;
-$content-background-color: #f3f8f7;
+$content-background-color: #efefef;
 
 // text-color
 $primary-text-color: #444;
