@@ -5,13 +5,14 @@
 // text
 $font-stack: 'Open Sans',sans-serif;
 $base-font-size: 16px;
-$base-line-height: 15px;
+$base-line-height: 1.5;
 $font: #{$base-font-size}/#{$base-line-height} $font-stack;
 
 // TODO header mixin
 
 // layout
-$base-height: 30px;
+$base-spacing: 15px;
+$base-height: $base-spacing*2;
 
 // paints
 $base-color: #d3e5e1;
@@ -20,8 +21,12 @@ $content-background-color: #efefef;
 // text-color
 $primary-text-color: #333;
 $primary-header-text-color: #222;
-$link-color: #4e7da8;
+$link-color: #989898;
 $link-hover-color: darken($content-background-color, 20%);
 
 // TODO Change to mixin
 $border: 2px solid $link-color;
+
+// Transitions
+$transition-fast: 0.22s ease
+

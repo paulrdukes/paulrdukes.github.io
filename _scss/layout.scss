@@ -1,12 +1,55 @@
 .wrap{
+  display: -webkit-flex;
+  display: flex;
+  flex-direction:  row;
+
+  border-left: $border;
+  border-width: $base-spacing;
+
   position: absolute;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
+
+  overflow: hidden;
 }
 
-.content{
-  width: 600px;
-  margin: 0 auto;
+.content-wrap{
+  overflow: auto;
+  flex:3;
+
+  display: -webkit-flex;
+  display: flex;
+  flex-direction:  row;
+}
+
+main{
+  flex: 2;
+  padding: $base-spacing;
+}
+
+aside{
+  font-size:  14px;
+
+  padding-left: $base-spacing;
+
+  display: -webkit-flex;
+  display: flex;
+
+  flex-direction:  column;
+
+  flex:1;
+
+  &.about-wrap{
+    background-color: darken($content-background-color, 5%);
+  }
+}
+
+footer{
+  flex: none;
+  text-align: left;
+  font-size: 12px;
+
+  padding-bottom: 15px;
 }
