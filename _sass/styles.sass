@@ -1,0 +1,75 @@
+// includes
+@import 'variables'
+@import 'utils'
+@import 'layout'
+
+html
+  background: $off-white
+  font: $font
+  color: $body-text-color
+
+h1, h2, h3
+  font-size: $display3-text-size
+  line-height: $display2-line-height
+  color: $display-text-color
+  font-weight: 300
+  padding: 0
+  margin: 0
+
+h2
+  font-size:  $display1-text-size
+  line-height:  $display1-line-height
+
+/* entypo */
+[class*="entypo-"]:before
+  font-family: 'entypo', sans-serif
+
+
+.social-media
+  margin: 0
+  padding: 0
+  font-size: 24px
+  display: inline-block
+
+  li
+    display: inline-block
+    margin: $small-margin
+    margin-bottom: 20px
+
+ul
+  list-style: none
+  text-align: right
+
+about
+  flex: 1
+
+  ul
+    text-align: left
+    margin: 0
+    padding: $small-padding $base-padding 20px 0
+    font-size: $caption-text-size
+
+  p
+    font-size:  $subhead1-text-size
+    font-weight: 300
+    letter-spacing: -0.016em
+    margin-top: 0
+
+.multitaskopus
+  background: url('../imgs/multitaskopus.png') no-repeat
+  background-size: 100%
+  width: 300px
+  height: 230px
+  position: fixed
+  top: 64px
+  right: 0
+
+// links
+a
+  color: $link-color
+  transition: color 0.5s ease-out
+  text-decoration: none
+
+  &:hover
+    color: $link-hover-color
+    transition: $transition-fast

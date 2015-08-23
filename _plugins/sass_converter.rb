@@ -30,7 +30,7 @@ module Jekyll
     private
 
     def sass_path
-      '_scss'
+      '_sass'
     end
 
     def sass_dir
