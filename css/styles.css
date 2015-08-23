@@ -1,7 +1,8 @@
+@import url(//fonts.googleapis.com/css?family=Open+Sans:300,400,800);
 @import url(http://weloveiconfonts.com/api/?family=entypo);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,800);
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,900);
-/* line 1, ../_scss/utils.scss */
+@import url(//fonts.googleapis.com/css?family=Open+Sans:300,400,800);
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+/* line 1, ../_sass/utils.sass */
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -13,187 +14,137 @@
   width: 1px;
 }
 
-/* line 1, ../_scss/layout.scss */
+/* line 11, ../_sass/utils.sass */
+.center, aside {
+  margin: 0 auto;
+}
+
+/* line 1, ../_sass/utils.sass */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/* line 11, ../_sass/utils.sass */
+.center, aside {
+  margin: 0 auto;
+}
+
+/* line 4, ../_sass/layout.sass */
 .wrap {
   display: -webkit-flex;
   display: flex;
   flex-direction: row;
-  border-left: 2px solid #989898;
-  border-width: 15px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  overflow: hidden;
 }
 
-/* line 18, ../_scss/layout.scss */
-.content-wrap {
-  overflow: auto;
-  flex: 3;
-  display: -webkit-flex;
-  display: flex;
-  flex-direction: row;
-}
-
-/* line 27, ../_scss/layout.scss */
-main {
-  flex: 2;
-  padding: 15px;
-}
-
-/* line 32, ../_scss/layout.scss */
+/* line 9, ../_sass/layout.sass */
 aside {
-  font-size: 14px;
-  padding-left: 15px;
-  display: -webkit-flex;
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-}
-/* line 44, ../_scss/layout.scss */
-aside.about-wrap {
-  background-color: #e2e2e2;
+  font-size: 16px;
+  padding: 16px;
+  padding-bottom: 20px;
+  width: 272px;
 }
 
-/* line 49, ../_scss/layout.scss */
+/* line 18, ../_sass/layout.sass */
 footer {
   flex: none;
   text-align: left;
   font-size: 12px;
-  padding-bottom: 15px;
+}
+
+/* line 6, ../_sass/styles.sass */
+html {
+  background: #fafafa;
+  font: 14px/24px "Open Sans", sans-serif;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+/* line 11, ../_sass/styles.sass */
+h1, h2, h3 {
+  font-size: 56px;
+  line-height: 63px;
+  color: rgba(0, 0, 0, 0.54);
+  font-weight: 300;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 19, ../_sass/styles.sass */
+h2 {
+  font-size: 34px;
+  line-height: 40px;
 }
 
 /* entypo */
-/* line 8, ../_scss/styles.scss */
+/* line 24, ../_sass/styles.sass */
 [class*="entypo-"]:before {
-  font-family: 'entypo', sans-serif;
+  font-family: "entypo", sans-serif;
 }
 
-/* line 12, ../_scss/styles.scss */
-html {
-  background: #efefef;
-  font: 16px/1.5 "Open Sans", sans-serif;
-  color: #333333;
-}
-
-/* line 18, ../_scss/styles.scss */
-h1 {
-  font-size: 3em;
-  line-height: 1.2;
-  font-weight: 900;
-  color: #222222;
-  padding: 0;
-  margin: 0;
-}
-
-/* line 27, ../_scss/styles.scss */
+/* line 28, ../_sass/styles.sass */
 .social-media {
   margin: 0;
   padding: 0;
+  font-size: 24px;
   display: inline-block;
 }
+/* line 34, ../_sass/styles.sass */
+.social-media li {
+  display: inline-block;
+  margin: 8px;
+  margin-bottom: 20px;
+}
 
-/* line 33, ../_scss/styles.scss */
+/* line 39, ../_sass/styles.sass */
 ul {
   list-style: none;
   text-align: right;
 }
-/* line 37, ../_scss/styles.scss */
-ul li {
-  display: inline-block;
-}
 
-/* line 42, ../_scss/styles.scss */
-.large-icon {
-  display: inline-block;
-  font-size: 32px;
-  text-align: center;
-  width: 50px;
-  height: 50px;
-}
-
-/* line 50, ../_scss/styles.scss */
+/* line 43, ../_sass/styles.sass */
 about {
   flex: 1;
 }
-/* line 53, ../_scss/styles.scss */
+/* line 46, ../_sass/styles.sass */
 about ul {
   text-align: left;
-  margin-left: 0;
-  padding-left: 0;
+  margin: 0;
+  padding: 8px 16px 20px 0;
+  font-size: 12px;
 }
-/* line 58, ../_scss/styles.scss */
-about h2 {
-  font-size: 2em;
-  color: #3c3c3c;
-  clear: both;
-  line-height: 1;
-  margin-bottom: 0;
-}
-/* line 65, ../_scss/styles.scss */
-about .profile-pic {
-  display: none;
-  width: 150px;
-  height: 150px;
-  border: 2px solid #989898;
-  border-width: 12px;
-  border-radius: 0 50% 50%;
-}
-/* line 74, ../_scss/styles.scss */
+/* line 52, ../_sass/styles.sass */
 about p {
-  font-style: italic;
+  font-size: 16px;
   font-weight: 300;
   letter-spacing: -0.016em;
-  margin: 6px 0;
+  margin-top: 0;
 }
 
-/* line 82, ../_scss/styles.scss */
+/* line 58, ../_sass/styles.sass */
 .multitaskopus {
   background: url("../imgs/multitaskopus.png") no-repeat;
   background-size: 100%;
-  width: 250px;
-  height: 191px;
+  width: 300px;
+  height: 230px;
   position: fixed;
-  bottom: 0;
+  top: 64px;
   right: 0;
 }
 
-/* line 93, ../_scss/styles.scss */
+/* line 68, ../_sass/styles.sass */
 a {
-  color: #989898;
+  color: rgba(0, 0, 0, 0.54);
   transition: color 0.5s ease-out;
   text-decoration: none;
 }
-/* line 98, ../_scss/styles.scss */
+/* line 73, ../_sass/styles.sass */
 a:hover {
-  color: #bcbcbc;
+  color: rgba(0, 0, 0, 0.54);
   transition: 0.22s ease;
-}
-
-/* line 105, ../_scss/styles.scss */
-#posts {
-  padding-bottom: 50px;
-}
-/* line 108, ../_scss/styles.scss */
-#posts p:first-of-type {
-  background-color: #ddd;
-  padding: 15px;
-}
-
-/* line 114, ../_scss/styles.scss */
-.post-title {
-  border-bottom: 2px solid #989898;
-}
-/* line 117, ../_scss/styles.scss */
-.post-title a {
-  font-size: 32px;
-  font-weight: 900;
-  text-decoration: none;
-}
-/* line 122, ../_scss/styles.scss */
-.post-title em {
-  float: right;
-  line-height: 60px;
 }

@@ -1,12 +1,27 @@
 {
   "title": "Hi, I'm Paul" ,
   "pic": "/imgs/profile-pic.jpg",
-  "bio":"...a web person doing web things in Montreal.",
+  "bio":"I build things people like to use.",
   "jobs": [
     {
-      "title": "UX/UI Designer (Web Application)",
+      "title": "UX/UI Designer",
       "company": "Acquisio",
       "url": "http://www.acquisio.com"
     }
-  ]
+  ],
+  "old": {
+    "jobs": [
+      {
+        "title": "Designer",
+        "company": "NiteRoll",
+        "url": "http://www.niteroll.com"
+      },
+      {
+        "title": "Lead Designer",
+        "company": "The Gower Group, Inc",
+        "url": "http://www.stephengower.com"
+      }
+
+    ]
+  }
 }

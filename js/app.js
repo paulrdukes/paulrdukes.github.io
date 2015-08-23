@@ -32,14 +32,16 @@
           $scope.about = data;
         });
       },
-      template:'<h1><a href="/index.html">{{about.title}}</a></h1>'+
-      '<p>{{about.bio}}</p>' +
-      '<social-links></social-links>'+
-      '<img src="{{about.pic}}" alt="profile-pic" class="profile-pic">' +
-      '<h2>Currently</h2>' +
-      '<ul ng-repeat="job in about.jobs">' +
-        '<li><em>{{job.title}}</em> - <a href="{{job.url}}" target="_blank">{{job.company}}</a></li>' +
-      '</ul>'
+      template:['<p>{{about.bio}}</p>',
+      '<social-links></social-links>',
+      '<h2>Currently</h2>',
+      '<ul ng-repeat="job in about.jobs">',
+        '<li><em>{{job.title}}</em> - <a href="{{job.url}}" target="_blank">{{job.company}}</a></li>',
+      '</ul>',
+      '<h2>Previously</h2>',
+      '<ul>',
+        '<li ng-repeat="job in about.old.jobs"><em>{{job.title}}</em> - <a href="{{job.url}}" target="_blank">{{job.company}}</a></li>',
+      '</ul>'].join('')
     };
   })
   .directive('footer', function (){
