@@ -4,13 +4,18 @@
   "bio":"I build things people like to use.",
   "jobs": [
     {
-      "title": "UX/UI Designer",
-      "company": "Acquisio",
-      "url": "http://www.acquisio.com"
+      "title": "UI Developer",
+      "company": "Peerio Technologies",
+      "url": "https://peerio.com/"
     }
   ],
   "old": {
     "jobs": [
+      {
+        "title": "UX/UI Designer",
+        "company": "Acquisio",
+        "url": "http://www.acquisio.com"
+      },
       {
         "title": "Designer/Developer",
         "company": "NiteRoll",
