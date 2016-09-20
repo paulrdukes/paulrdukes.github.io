@@ -37,37 +37,37 @@ $title-text-color: rgba($black, 0.87)
 $subhead-text-color: rgba($black, 0.87)
 $body-text-color: rgba($black, 0.87)
 $caption-text-color: rgba($black, 0.54)
-$disable-hint-text-color: rgba($black, 0.26)
+$disable-hint-text-color: rgba($black, 0.38)
+$border-color: rgba($black, 0.12)
 
-$link-color: $display-text-color
-$link-hover-color: darken($link-color, 20%)
+$link-color: $disable-hint-text-color
+$link-hover-color: $display-text-color
 
 $font-stack: 'Open Sans',sans-serif
 
-$base-line-height: 24px
+
 $font: #{$body-text-size}/#{$body-line-height} $font-stack
 
-// Other Sizes
-$base-spacing: 16px
-$base-padding: $base-spacing
-$small-padding: $base-padding/2
-
-$base-margin: $base-spacing
-$small-margin: $base-margin/2
-
 // layout
-$base-spacing: 16px
-$base-height: $base-spacing*2
+$base-unit: 8px
+$base-height: $base-unit*2
+
+$default-padding: $base-unit*2
+$small-padding: $default-padding/2
+
+$default-margin: $base-unit*2
+$small-margin: $default-margin/2
+
 
 // paints
 $base-color: #d3e5e1
 $body-background-color: $off-white
+
 // TODO Change to mixin
-$border: 2px solid $link-color
+$border: 1px solid $border-color
 
 // Transitions
-$transition-fast: 0.22s ease
+$transition-fast: 150ms ease
+$transition-default: 200ms ease
 
 $border-radius: 2px
-
-

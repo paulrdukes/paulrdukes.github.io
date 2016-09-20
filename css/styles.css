@@ -1,8 +1,6 @@
 @import url(//fonts.googleapis.com/css?family=Open+Sans:300,400,800);
 @import url(http://weloveiconfonts.com/api/?family=entypo);
-@import url(//fonts.googleapis.com/css?family=Open+Sans:300,400,800);
-@import url(http://weloveiconfonts.com/api/?family=entypo);
-/* line 1, ../_sass/utils.sass */
+/* line 7, ../_sass/styles.sass */
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -14,58 +12,35 @@
   width: 1px;
 }
 
-/* line 11, ../_sass/utils.sass */
-.center, aside {
-  margin: 0 auto;
-}
-
-/* line 1, ../_sass/utils.sass */
-.visuallyhidden {
-  border: 0;
-  clip: rect(0 0 0 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  width: 1px;
-}
-
-/* line 11, ../_sass/utils.sass */
-.center, aside {
-  margin: 0 auto;
-}
-
-/* line 4, ../_sass/layout.sass */
+/* line 20, ../_sass/styles.sass */
 .wrap {
   display: -webkit-flex;
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
-/* line 9, ../_sass/layout.sass */
-aside {
-  font-size: 16px;
-  padding: 16px;
-  padding-bottom: 20px;
-  width: 232px;
+/* line 26, ../_sass/styles.sass */
+.content {
+  padding: 16px 16px 20px;
+  width: 480px;
 }
 
-/* line 18, ../_sass/layout.sass */
+/* line 30, ../_sass/styles.sass */
 footer {
   flex: none;
   text-align: left;
   font-size: 12px;
 }
 
-/* line 6, ../_sass/styles.sass */
+/* line 38, ../_sass/styles.sass */
 html {
   background: #fafafa;
   font: 14px/24px "Open Sans", sans-serif;
   color: rgba(0, 0, 0, 0.87);
 }
 
-/* line 11, ../_sass/styles.sass */
+/* line 43, ../_sass/styles.sass */
 h1, h2, h3 {
   font-size: 56px;
   line-height: 63px;
@@ -75,50 +50,50 @@ h1, h2, h3 {
   margin: 0;
 }
 
-/* line 19, ../_sass/styles.sass */
+/* line 51, ../_sass/styles.sass */
 h2 {
   font-size: 34px;
   line-height: 40px;
 }
 
 /* entypo */
-/* line 24, ../_sass/styles.sass */
+/* line 56, ../_sass/styles.sass */
 [class*="entypo-"]:before {
   font-family: "entypo", sans-serif;
 }
 
-/* line 28, ../_sass/styles.sass */
+/* line 60, ../_sass/styles.sass */
 .social-media {
   margin: 0;
   padding: 0;
   font-size: 24px;
   display: inline-block;
 }
-/* line 34, ../_sass/styles.sass */
+/* line 66, ../_sass/styles.sass */
 .social-media li {
   display: inline-block;
   margin: 8px;
   margin-bottom: 20px;
 }
 
-/* line 39, ../_sass/styles.sass */
+/* line 71, ../_sass/styles.sass */
 ul {
   list-style: none;
   text-align: right;
 }
 
-/* line 43, ../_sass/styles.sass */
+/* line 75, ../_sass/styles.sass */
 about {
   flex: 1;
 }
-/* line 46, ../_sass/styles.sass */
+/* line 78, ../_sass/styles.sass */
 about ul {
   text-align: left;
   margin: 0;
-  padding: 8px 16px 20px 0;
+  padding: 16px 16px 20px 0;
   font-size: 12px;
 }
-/* line 52, ../_sass/styles.sass */
+/* line 84, ../_sass/styles.sass */
 about p {
   font-size: 16px;
   font-weight: 300;
@@ -126,7 +101,7 @@ about p {
   margin-top: 0;
 }
 
-/* line 58, ../_sass/styles.sass */
+/* line 90, ../_sass/styles.sass */
 .multitaskopus {
   background: url("../imgs/multitaskopus.png") no-repeat;
   background-size: 100%;
@@ -137,14 +112,13 @@ about p {
   right: 0;
 }
 
-/* line 68, ../_sass/styles.sass */
+/* line 100, ../_sass/styles.sass */
 a {
-  color: rgba(0, 0, 0, 0.54);
-  transition: color 0.5s ease-out;
+  color: rgba(0, 0, 0, 0.38);
+  transition: 200ms ease;
   text-decoration: none;
 }
-/* line 73, ../_sass/styles.sass */
+/* line 105, ../_sass/styles.sass */
 a:hover {
   color: rgba(0, 0, 0, 0.54);
-  transition: 0.22s ease;
 }

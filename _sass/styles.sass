@@ -1,10 +1,42 @@
 // includes
 @import 'variables'
-@import 'utils'
-@import 'layout'
+
+
+// @import 'utils'
+
+.visuallyhidden
+  border: 0
+  clip: rect(0 0 0 0)
+  height: 1px
+  margin: -1px
+  overflow: hidden
+  padding: 0
+  position: absolute
+  width: 1px
+
+
+// @import 'layout'
+
+.wrap
+  display: -webkit-flex
+  display: flex
+  flex-direction: row
+  justify-content: center
+
+.content
+  padding: $default-padding $default-padding 20px
+  width: 480px
+
+footer
+  flex: none
+  text-align: left
+  font-size: 12px
+
+
+// MAIN STYLES
 
 html
-  background: $off-white
+  background: $body-background-color
   font: $font
   color: $body-text-color
 
@@ -46,7 +78,7 @@ about
   ul
     text-align: left
     margin: 0
-    padding: $small-padding $base-padding 20px 0
+    padding: $default-padding $default-padding 20px 0
     font-size: $caption-text-size
 
   p
@@ -67,9 +99,8 @@ about
 // links
 a
   color: $link-color
-  transition: color 0.5s ease-out
+  transition: $transition-default
   text-decoration: none
 
   &:hover
     color: $link-hover-color
-    transition: $transition-fast

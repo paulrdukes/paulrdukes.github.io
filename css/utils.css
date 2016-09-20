@@ -9,8 +9,3 @@
   position: absolute;
   width: 1px;
 }
-
-/* line 11, ../_sass/utils.sass */
-.center {
-  margin: 0 auto;
-}
