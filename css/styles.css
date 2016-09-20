@@ -1,4 +1,4 @@
-@import url(//fonts.googleapis.com/css?family=Open+Sans:300,400,800);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,800);
 @import url(http://weloveiconfonts.com/api/?family=entypo);
 /* line 7, ../_sass/styles.sass */
 .visuallyhidden {
@@ -56,52 +56,58 @@ h2 {
   line-height: 40px;
 }
 
+/* line 55, ../_sass/styles.sass */
+.subhead {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.54);
+  line-height: 24px;
+  font-weight: 600;
+}
+
+/* line 61, ../_sass/styles.sass */
+.caption {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.38);
+}
+
 /* entypo */
-/* line 56, ../_sass/styles.sass */
+/* line 66, ../_sass/styles.sass */
 [class*="entypo-"]:before {
   font-family: "entypo", sans-serif;
 }
 
-/* line 60, ../_sass/styles.sass */
+/* line 70, ../_sass/styles.sass */
 .social-media {
   margin: 0;
   padding: 0;
   font-size: 24px;
   display: inline-block;
 }
-/* line 66, ../_sass/styles.sass */
+/* line 76, ../_sass/styles.sass */
 .social-media li {
   display: inline-block;
   margin: 8px;
   margin-bottom: 20px;
 }
 
-/* line 71, ../_sass/styles.sass */
+/* line 81, ../_sass/styles.sass */
 ul {
   list-style: none;
   text-align: right;
 }
 
-/* line 75, ../_sass/styles.sass */
+/* line 85, ../_sass/styles.sass */
 about {
   flex: 1;
 }
-/* line 78, ../_sass/styles.sass */
+/* line 88, ../_sass/styles.sass */
 about ul {
   text-align: left;
   margin: 0;
   padding: 16px 16px 20px 0;
-  font-size: 12px;
-}
-/* line 84, ../_sass/styles.sass */
-about p {
-  font-size: 16px;
-  font-weight: 300;
-  letter-spacing: -0.016em;
-  margin-top: 0;
 }
 
-/* line 90, ../_sass/styles.sass */
+/* line 94, ../_sass/styles.sass */
 .multitaskopus {
   background: url("../imgs/multitaskopus.png") no-repeat;
   background-size: 100%;
@@ -112,13 +118,13 @@ about p {
   right: 0;
 }
 
-/* line 100, ../_sass/styles.sass */
+/* line 104, ../_sass/styles.sass */
 a {
   color: rgba(0, 0, 0, 0.38);
   transition: 200ms ease;
   text-decoration: none;
 }
-/* line 105, ../_sass/styles.sass */
+/* line 109, ../_sass/styles.sass */
 a:hover {
   color: rgba(0, 0, 0, 0.54);
 }
