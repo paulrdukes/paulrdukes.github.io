@@ -4,20 +4,25 @@
   "bio":"I build things people like to use.",
   "jobs": [
     {
-      "title": "UX/UI Designer",
-      "company": "Acquisio",
-      "url": "http://www.acquisio.com"
+      "title": "UI Developer",
+      "company": "Peerio Technologies",
+      "url": "https://peerio.com/"
     }
   ],
   "old": {
     "jobs": [
       {
-        "title": "Designer",
+        "title": "UX/UI Designer",
+        "company": "Acquisio",
+        "url": "http://www.acquisio.com"
+      },
+      {
+        "title": "Designer/Developer",
         "company": "NiteRoll",
         "url": "http://www.niteroll.com"
       },
       {
-        "title": "Lead Designer",
+        "title": "Lead Designer/Developer",
         "company": "The Gower Group, Inc",
         "url": "http://www.stephengower.com"
       }
