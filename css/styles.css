@@ -101,6 +101,9 @@ ul {
   text-align: left;
 }
 
+li {
+  line-heigt: 2;
+
 /* line 85, ../_sass/styles.sass */
 about {
   flex: 1;
@@ -108,7 +111,7 @@ about {
 /* line 88, ../_sass/styles.sass */
 about ul {
   margin: 0;
-  padding: 16px 0 20px;
+  padding: 8px 0 24px;
 }
 
 /* line 94, ../_sass/styles.sass */
