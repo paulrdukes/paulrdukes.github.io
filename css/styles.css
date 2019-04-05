@@ -18,6 +18,7 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
+  text-align: center;
 }
 
 /* line 26, ../_sass/styles.sass */
@@ -58,10 +59,12 @@ h2 {
 
 /* line 55, ../_sass/styles.sass */
 .subhead {
-  font-size: 16px;
   color: rgba(0, 0, 0, 0.54);
-  line-height: 24px;
+  font-size: 16px;
   font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+
 }
 
 /* line 61, ../_sass/styles.sass */
@@ -93,7 +96,7 @@ h2 {
 /* line 81, ../_sass/styles.sass */
 ul {
   list-style: none;
-  text-align: right;
+  text-align: left;
 }
 
 /* line 85, ../_sass/styles.sass */
@@ -102,7 +105,6 @@ about {
 }
 /* line 88, ../_sass/styles.sass */
 about ul {
-  text-align: left;
   margin: 0;
   padding: 16px 16px 20px 0;
 }
