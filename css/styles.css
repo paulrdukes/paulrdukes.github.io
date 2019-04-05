@@ -29,9 +29,11 @@
 
 /* line 30, ../_sass/styles.sass */
 footer {
+  border-top: 1px solid rgba(0,0,0, .38)
   flex: none;
-  text-align: left;
   font-size: 12px;
+  margin-top: 24px;
+  padding-top: 16px;
 }
 
 /* line 38, ../_sass/styles.sass */
@@ -106,7 +108,7 @@ about {
 /* line 88, ../_sass/styles.sass */
 about ul {
   margin: 0;
-  padding: 16px 16px 20px 0;
+  padding: 16px 0 20px;
 }
 
 /* line 94, ../_sass/styles.sass */
