@@ -81,6 +81,10 @@ h2 {
   font-family: "entypo", sans-serif;
 }
 
+[class*="entypo-"]:before a{
+  text-decoration: none;
+}
+
 /* line 70, ../_sass/styles.sass */
 .social-media {
   margin: 0;
@@ -133,5 +137,5 @@ a {
 }
 /* line 109, ../_sass/styles.sass */
 a:hover {
-  font-weight: 900;
+  color: rgba(0,0,0,.87);
 }
