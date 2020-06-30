@@ -81,10 +81,6 @@ h2 {
   font-family: "entypo", sans-serif;
 }
 
-[class*="entypo-"]:before a{
-  text-decoration: none;
-}
-
 /* line 70, ../_sass/styles.sass */
 .social-media {
   margin: 0;
@@ -92,6 +88,11 @@ h2 {
   font-size: 24px;
   display: inline-block;
 }
+
+.social a{
+  text-decoration: none;
+}
+
 /* line 76, ../_sass/styles.sass */
 .social-media li {
   display: inline-block;
