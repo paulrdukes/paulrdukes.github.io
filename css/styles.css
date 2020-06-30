@@ -31,7 +31,7 @@
 footer {
   border-top: 1px solid rgba(0,0,0, .38);
   flex: none;
-  font-size: 12px;
+  font-size: 14px;
   margin-top: 24px;
   padding-top: 16px;
 }
@@ -39,7 +39,7 @@ footer {
 /* line 38, ../_sass/styles.sass */
 html {
   background: #fafafa;
-  font: 14px/24px "Open Sans", sans-serif;
+  font: 16px/1.5 "Open Sans", sans-serif;
   color: rgba(0, 0, 0, 0.87);
 }
 
@@ -71,7 +71,7 @@ h2 {
 
 /* line 61, ../_sass/styles.sass */
 .caption {
-  font-size: 12px;
+  font-size: 14px;
   color: rgba(0, 0, 0, 0.38);
 }
 
