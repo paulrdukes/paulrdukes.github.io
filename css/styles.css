@@ -12,24 +12,29 @@
   width: 1px;
 }
 
+body {
+  margin: 0;
+}
+
 /* line 20, ../_sass/styles.sass */
 .wrap {
   display: -webkit-flex;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   text-align: center;
 }
 
 /* line 26, ../_sass/styles.sass */
 .content {
+  margin: 0 auto;
   padding: 16px 16px 20px;
   width: 480px;
 }
 
 /* line 30, ../_sass/styles.sass */
 footer {
-  border-top: 1px solid rgba(0,0,0, .38);
+  border-top: 1px solid rgba(0,0,0, .12);
   flex: none;
   font-size: 14px;
   margin-top: 24px;
