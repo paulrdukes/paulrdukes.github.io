@@ -22,7 +22,9 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  min-height: 100vh;
   text-align: center;
+
 }
 
 /* line 26, ../_sass/styles.sass */
@@ -37,8 +39,9 @@ footer {
   border-top: 1px solid rgba(0,0,0, .12);
   flex: none;
   font-size: 14px;
-  margin-top: 24px;
   padding-top: 16px;
+  margin-top: auto;
+  padding: 16px 0;
 }
 
 /* line 38, ../_sass/styles.sass */
