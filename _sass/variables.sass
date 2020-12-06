@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,800)
+@import url(https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,600;1,400&display=swap)
 @import url(http://weloveiconfonts.com/api/?family=entypo)
 
 // PALETTE
@@ -14,7 +14,7 @@ $display1-text-size: 34px
 $headline-text-size: 24px
 $title-text-size: 20px
 $subhead-text-size: 16px
-$body-text-size: 14px
+$body-text-size: 16px
 $data-table-text-size: 13px
 $caption-text-size: 12px
 
@@ -26,8 +26,8 @@ $display2-line-height: 63px
 $display1-line-height: 40px
 $headline-line-height: 32px
 $title-line-height: 26px
-$subhead-line-height: 24px
-$body-line-height: 24px
+$subhead-line-height: 48px
+$body-line-height: 1.5
 $caption-line-height: 16px
 
 // Font Color
@@ -40,10 +40,10 @@ $caption-text-color: rgba($black, 0.54)
 $disable-hint-text-color: rgba($black, 0.38)
 $border-color: rgba($black, 0.12)
 
-$link-color: $disable-hint-text-color
-$link-hover-color: $display-text-color
+$link-color: rgba($black, 0.54)
+$link-hover-color: rgba(green, 0.9)
 
-$font-stack: 'Open Sans',sans-serif
+$font-stack: 'Work Sans',sans-serif
 
 
 $font: #{$body-text-size}/#{$body-line-height} $font-stack
@@ -60,8 +60,10 @@ $small-margin: $default-margin/2
 
 
 // paints
-$base-color: #d3e5e1
+$base-color: green
 $body-background-color: $off-white
+$footer-background-color: rgba($base-color, .25)
+
 
 // TODO Change to mixin
 $border: 1px solid $border-color
@@ -70,4 +72,4 @@ $border: 1px solid $border-color
 $transition-fast: 150ms ease
 $transition-default: 200ms ease
 
-$border-radius: 2px
+$border-radius: 8px

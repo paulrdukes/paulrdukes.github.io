@@ -1,3 +1,5 @@
+// ---
+// ---
 // includes
 @import 'variables'
 
@@ -20,31 +22,43 @@
 .wrap
   display: -webkit-flex
   display: flex
-  flex-direction: row
+  flex-direction: column
   justify-content: center
+  min-height: 100vh
 
 .content
+  margin: 0 auto
   padding: $default-padding $default-padding 20px
-  width: 480px
+  text-align: center
+  // width: 480px
 
 footer
+  // TODO: update values to variables
+  background: $footer-background-color
+  border-top: 1px solid rgba(0,0,0, .12)
   flex: none
-  text-align: left
-  font-size: 12px
+  font-size: 14px
+  padding-top: 16px
+  margin-top: auto
+  padding: 16px 0
+  text-align: center
 
 
 // MAIN STYLES
 
 html
   background: $body-background-color
-  font: $font
   color: $body-text-color
+  font: $font
+
+body
+  margin: 0
 
 h1, h2, h3
   font-size: $display3-text-size
   line-height: $display2-line-height
   color: $display-text-color
-  font-weight: 300
+  font-weight: 600
   padding: 0
   margin: 0
 
@@ -78,33 +92,27 @@ h2
     margin: $small-margin
     margin-bottom: 20px
 
+  a
+    text-decoration: none
+
 ul
   list-style: none
-  text-align: right
+  margin: 16px 0 24px
+  padding: 0
+  text-align: left
 
-about
+li
+  line-height: 32px
+
+.about
   flex: 1
-
-  ul
-    text-align: left
-    margin: 0
-    padding: $default-padding $default-padding 20px 0
-
-
-.multitaskopus
-  background: url('../imgs/multitaskopus.png') no-repeat
-  background-size: 100%
-  width: 300px
-  height: 230px
-  position: fixed
-  top: 64px
-  right: 0
+  text-align: center
 
 // links
 a
   color: $link-color
-  transition: $transition-default
   text-decoration: none
+  transition: $transition-default
 
   &:hover
     color: $link-hover-color

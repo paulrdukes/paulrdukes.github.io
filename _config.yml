@@ -10,8 +10,6 @@ show_drafts: true
 limit_posts: 10
 highlighter: pygments
 
-
-
 permalink:     /posts/:month/:day/:year/:title/
 paginate_path: 'page:num'
 
@@ -53,3 +51,6 @@ kramdown:
 
 redcloth:
   hard_breaks: true
+
+sass:
+  style: compact # possible values: nested expanded compact compressed

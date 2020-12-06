@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,600;1,400&display=swap');
+@import url(https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,600;1,400&display=swap);
 @import url(http://weloveiconfonts.com/api/?family=entypo);
-/* line 7, ../_sass/styles.sass */
+/* line 9, ../_sass/styles.sass */
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -12,47 +12,47 @@
   width: 1px;
 }
 
-body {
-  margin: 0;
-}
-
-/* line 20, ../_sass/styles.sass */
+/* line 22, ../_sass/styles.sass */
 .wrap {
   display: -webkit-flex;
   display: flex;
   flex-direction: column;
   justify-content: center;
   min-height: 100vh;
-  text-align: center;
-
 }
 
-/* line 26, ../_sass/styles.sass */
+/* line 29, ../_sass/styles.sass */
 .content {
   margin: 0 auto;
   padding: 16px 16px 20px;
-  width: 480px;
+  text-align: center;
 }
 
-/* line 30, ../_sass/styles.sass */
+/* line 35, ../_sass/styles.sass */
 footer {
-  background: rgb(135, 206, 250);
-  border-top: 1px solid rgba(0,0,0, .12);
+  background: rgba(0, 128, 0, 0.25);
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
   flex: none;
   font-size: 14px;
   padding-top: 16px;
   margin-top: auto;
   padding: 16px 0;
+  text-align: center;
 }
 
-/* line 38, ../_sass/styles.sass */
+/* line 49, ../_sass/styles.sass */
 html {
   background: #fafafa;
-  font: 16px/1.5 'Work Sans', sans-serif;
   color: rgba(0, 0, 0, 0.87);
+  font: 16px/1.5 "Work Sans", sans-serif;
 }
 
-/* line 43, ../_sass/styles.sass */
+/* line 54, ../_sass/styles.sass */
+body {
+  margin: 0;
+}
+
+/* line 57, ../_sass/styles.sass */
 h1, h2, h3 {
   font-size: 56px;
   line-height: 63px;
@@ -62,90 +62,76 @@ h1, h2, h3 {
   margin: 0;
 }
 
-/* line 51, ../_sass/styles.sass */
+/* line 65, ../_sass/styles.sass */
 h2 {
   font-size: 34px;
   line-height: 40px;
 }
 
-/* line 55, ../_sass/styles.sass */
+/* line 69, ../_sass/styles.sass */
 .subhead {
-  color: rgba(0, 0, 0, 0.54);
   font-size: 16px;
+  color: rgba(0, 0, 0, 0.54);
+  line-height: 48px;
   font-weight: 600;
-  line-height: 24px;
-  text-align: left;
-
 }
 
-/* line 61, ../_sass/styles.sass */
+/* line 75, ../_sass/styles.sass */
 .caption {
-  font-size: 14px;
+  font-size: 12px;
   color: rgba(0, 0, 0, 0.38);
 }
 
 /* entypo */
-/* line 66, ../_sass/styles.sass */
+/* line 80, ../_sass/styles.sass */
 [class*="entypo-"]:before {
   font-family: "entypo", sans-serif;
 }
 
-/* line 70, ../_sass/styles.sass */
+/* line 84, ../_sass/styles.sass */
 .social-media {
   margin: 0;
   padding: 0;
   font-size: 24px;
   display: inline-block;
 }
-
-.social-media a{
-  text-decoration: none;
-}
-
-/* line 76, ../_sass/styles.sass */
+/* line 90, ../_sass/styles.sass */
 .social-media li {
   display: inline-block;
   margin: 8px;
   margin-bottom: 20px;
 }
+/* line 95, ../_sass/styles.sass */
+.social-media a {
+  text-decoration: none;
+}
 
-/* line 81, ../_sass/styles.sass */
+/* line 98, ../_sass/styles.sass */
 ul {
   list-style: none;
+  margin: 16px 0 24px;
+  padding: 0;
   text-align: left;
 }
 
-li {
-  line-height: 2;
-}
-
-/* line 85, ../_sass/styles.sass */
-about {
-  flex: 1;
-}
-/* line 88, ../_sass/styles.sass */
-about ul {
-  margin: 0;
-  padding: 8px 0 24px;
-}
-
-/* line 94, ../_sass/styles.sass */
-.multitaskopus {
-  background: url("../imgs/multitaskopus.png") no-repeat;
-  background-size: 100%;
-  width: 300px;
-  height: 230px;
-  position: fixed;
-  top: 64px;
-  right: 0;
-}
-
 /* line 104, ../_sass/styles.sass */
+li {
+  line-height: 32px;
+}
+
+/* line 107, ../_sass/styles.sass */
+.about {
+  flex: 1;
+  text-align: center;
+}
+
+/* line 112, ../_sass/styles.sass */
 a {
   color: rgba(0, 0, 0, 0.54);
+  text-decoration: none;
   transition: 200ms ease;
 }
-/* line 109, ../_sass/styles.sass */
+/* line 117, ../_sass/styles.sass */
 a:hover {
-  color: rgba(0,0,0,.87);
+  color: rgba(0, 128, 0, 0.9);
 }

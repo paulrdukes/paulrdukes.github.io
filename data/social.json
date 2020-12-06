@@ -22,12 +22,11 @@
   {
     "url":"http://www.github.com/paulrdukes",
     "icon": "github",
-    "name": "Github"
+    "name": "Github",
   },
   {
     "url": "mailto:paul.r.dukes@gmail.com",
     "icon": "mail",
     "name": "E-mail",
-    "hide": true
   }
 ]
