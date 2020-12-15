@@ -30,7 +30,8 @@
 
 /* line 35, ../_sass/styles.sass */
 footer {
-  border-top: 1px solid rgba(0, 100, 0, 0.75);
+  background: #fff;
+  border-top: 1px solid darkgreen;
   flex: none;
   font-size: 14px;
   padding-top: 16px;
@@ -139,5 +140,5 @@ a {
 }
 /* line 122, ../_sass/styles.sass */
 a:hover {
-  color: rgba(0, 128, 0, 0.9);
+  color: rgba(0, 100, 0, 0.9);
 }
