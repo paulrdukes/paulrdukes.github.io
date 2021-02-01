@@ -1,6 +1,6 @@
 [
   {
-    "url":"http://www.twitter.com/paulrdukes",
+    "url":"https://www.twitter.com/paulrdukes",
     "icon": "twitter",
     "name": "Twitter"
   },
@@ -10,17 +10,17 @@
     "name": "Spotify"
   },
   {
-    "url":"http://ca.linkedin.com/in/pauldukes",
+    "url":"https://ca.linkedin.com/in/pauldukes",
     "icon": "linkedin-circled",
     "name": "LinkedIn"
   },
   {
-    "url":"http://www.behance.net/pauldukes",
+    "url":"https://www.behance.net/pauldukes",
     "icon": "behance",
     "name": "Behance"
   },
   {
-    "url":"http://www.github.com/paulrdukes",
+    "url":"https://www.github.com/paulrdukes",
     "icon": "github",
     "name": "Github",
   },
