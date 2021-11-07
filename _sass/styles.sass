@@ -16,30 +16,24 @@
   position: absolute
   width: 1px
 
-
-// @import 'layout'
-
 .wrap
   display: -webkit-flex
   display: flex
   flex-direction: column
   justify-content: center
   min-height: 100vh
+  width: 100vw
 
 .content
-  margin: 0 auto
-  padding: $default-padding $default-padding 20px
+  margin: auto
   text-align: center
-  // width: 480px
 
 footer
   // TODO: update values to variables
   background: $footer-background-color
-  border-top: 1px solid darkgreen
+  border-top: 2px solid darkgreen
   flex: none
   font-size: 14px
-  padding-top: 16px
-  margin-top: auto
   padding: 16px 0
   text-align: center
 
@@ -60,7 +54,7 @@ h1, h2, h3
   color: $display-text-color
   font-weight: 600
   padding: 0
-  margin: 0
+  margin: .5em 0
 
 h2
   font-size:  $display1-text-size
@@ -83,41 +77,39 @@ h2
 
 .social-media
   margin: 0
-  padding: 0
-  font-size: 24px
+  font-size: 32px
   display: inline-block
 
   li
     display: inline-block
     margin: $small-margin
-    margin-bottom: 20px
+    line-height: 32px
 
   a
     text-decoration: none
 
 ul
   list-style: none
-  margin: 16px 0 24px
   padding: 0
   text-align: left
 
-li
-  line-height: 32px
-
 .about
   flex: 1
+  padding: 0 16px
   text-align: center
-
+  
 .avatar
-  width: 200px
-  height: 200px
-  border-radius: 10%
-  border: 1px solid rgba(255, 255, 255, 1)
+  @include square(240px, 24px)
+  border: 2px solid rgba(255, 255, 255, 1)
+  box-shadow: 0 4px 80px rgba(0,0,0, .32), 0 4px 8px rgba(0,0,0, .24)
+
 // links
 a
   color: $link-color
   text-decoration: none
-  transition: $transition-default
 
   &:hover
     color: $link-hover-color
+
+
+      
