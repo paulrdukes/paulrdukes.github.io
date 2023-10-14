@@ -24,7 +24,6 @@
 .content {
   margin: auto;
   padding: 32px 0;
-  text-align: center;
 }
 
 footer {
@@ -51,25 +50,13 @@ body {
   margin: 0;
 }
 
-h1, h2, h3 {
+h1 {
   font-size: 56px;
   line-height: 63px;
   color: rgba(0, 0, 0, 0.54);
   font-weight: 600;
   padding: 0;
   margin: 0.5em 0;
-}
-
-h2 {
-  font-size: 34px;
-  line-height: 40px;
-}
-
-.subhead {
-  font-size: 16px;
-  color: rgba(0, 0, 0, 0.54);
-  line-height: 48px;
-  font-weight: 600;
 }
 
 .caption {
@@ -84,20 +71,13 @@ h2 {
   margin: 0;
   font-size: 32px;
   display: inline-block;
-}
-
-.social-media a {
-  display: inline-block;
   margin: 16px;
   line-height: 32px;
-  text-decoration: none;
 }
-
 
 .about {
   flex: 1;
   padding: 0 16px;
-  text-align: center;
 }
 
 .avatar {
